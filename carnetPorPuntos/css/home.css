@@ -1,0 +1,343 @@
+                                body {
+                                background: #EEE;
+                            }
+                            
+                            .header {
+                                width: 90%;
+                                margin: 0 auto;
+                            }
+                            
+                            .header img {
+                                float: left;
+                                margin-bottom: 20px;
+                            }
+                            
+                            .header form {
+                                float: right;
+                                margin-top: 2%;
+                            }
+                            
+                            .header form input[type="submit"] {
+                                background-color: #408ebc;
+                                color: white;
+                                border-radius: 5px;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                            }
+                            
+                            #menu {
+                                display: table;
+                                width: 90%;
+                                margin-left: 2%;
+                            }
+                            
+                            .nav {
+                                list-style: none;
+                                width: 100%;
+                            }
+                            
+                            .nav > li {
+                                float: left;
+                                padding-left: 6.5%;
+                                padding-right: 6.3%;
+                                padding-top: 6px;
+                                border: 1px solid transparent;
+                                background-color: #408ebc;
+                                padding-bottom: 6px;
+                                border-color: #ccc;
+                            }
+                            
+                            .nav li a {
+                                color: white;
+                                text-decoration: none;
+                                text-shadow: 0px 1px 1px #0a2e40;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                display: block;
+                            }
+                            
+                            .nav li:hover {
+                                background-color: #65A4CA;
+                            }
+                            
+                            .slider2 {
+                                width: 90%;
+                                margin: 0 auto;
+                            }
+                            
+                            #slider {
+                                margin: auto;
+                                display: table;
+                                width: 100%;
+                            }
+                            
+                            #slider img {
+                                display: none;
+                                width: 98%;
+                                max-height: 225.49px;
+                                box-shadow: 0px 0px 1px black;
+                                border: 10px solid white;
+                                border-radius: 10px;
+                            }
+                            
+                            #slider img:nth-child(1) {
+                                display: block;
+                                margin-left: auto;
+                                width: 98%;
+                                max-height: 225.49px;
+                                box-shadow: 0px 0px 1px black;
+                                border-radius: 10px;
+                                border: 10px solid white;
+                            }
+                            
+                            .error {
+                                color: orangered;
+                                font-weight: bold;
+                                margin: 10px;
+                            }
+                            
+                            .title1 {
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                color: white;
+                                font-size: larger;
+                                text-align: center;
+                                float: left;
+                                width: 98%;
+                                text-shadow: 0px 0px 1px #0a2e40;
+                                box-shadow: 0px 0px 1px black;
+                                border-radius: 5px;
+                                border-bottom-left-radius: 0;
+                                border-bottom-right-radius: 0;
+                                border: 10px solid #408ebc;
+                                background: #408ebc;
+                            }
+                            
+                            .subtitle {
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                color: #389ED1;
+                                font-size: larger;
+                                text-align: center;
+                            }
+                            
+                            .info {
+                                margin: auto;
+                                width: 90%;
+                            }
+                            
+                            .how_works {
+                                margin-bottom: 2%;
+                                float: left;
+                                width: 98%;
+                                box-shadow: 0px 0px 1px black;
+                                border-radius: 5px;
+                                border-top-left-radius: 0;
+                                border-top-right-radius: 0;
+                                border: 10px solid white;
+                                background: white;
+                            }
+                            
+                            .w_left {
+                                width: 47%;
+                                float: left;
+                                margin: auto;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                text-align: justify;
+                            }
+                            
+                            .w_left li {
+                                padding: 4px 0px;
+                                list-style: none;
+                            }
+                            
+                            .w_right li {
+                                padding: 4px 0px;
+                                list-style: none;
+                            }
+                            
+                            .w_right {
+                                width: 47%;
+                                float: right;
+                                margin: auto;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                text-align: justify;
+                            }
+                            
+                            .rules {
+                                margin-bottom: 2%;
+                                float: left;
+                                width: 98%;
+                                box-shadow: 0px 0px 1px black;
+                                border-radius: 5px;
+                                border-top-left-radius: 0;
+                                border-top-right-radius: 0;
+                                border: 10px solid white;
+                                background: white;
+                            }
+                            
+                            .r_left {
+                                width: 47%;
+                                float: left;
+                                margin: auto;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                text-align: justify;
+                            }
+                            
+                            .r_left li {
+                                padding: 4px 0px;
+                                list-style: none;
+                            }
+                            
+                            .r_right li {
+                                padding: 4px 0px;
+                                list-style: none;
+                            }
+                            
+                            .r_right {
+                                width: 47%;
+                                float: right;
+                                margin: auto;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                text-align: justify;
+                            }
+                            
+                            .photo1 {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                            
+                            .links {
+                                text-decoration: none;
+                            }
+                            
+                            .zones {
+                                margin-bottom: 2%;
+                                float: left;
+                                width: 98%;
+                                box-shadow: 0px 0px 1px black;
+                                border-radius: 5px;
+                                border-top-left-radius: 0;
+                                border-top-right-radius: 0;
+                                border: 10px solid white;
+                                background: white;
+                            }
+                            
+                            .up {
+                                margin: 0 auto;
+                                width: 100%;
+                                float: left;
+                            }
+                            
+                            .down {
+                                margin: 0 auto;
+                                width: 100%;
+                                float: left;
+                            }
+                            
+                            .z_left {
+                                width: 47%;
+                                float: left;
+                                margin: auto;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                text-align: justify;
+                                padding-bottom: 12px;
+                            }
+                            
+                            .z_left li {
+                                padding: 4px 0px;
+                                list-style: none;
+                            }
+                            
+                            .zones img {
+                                width: 50%;
+                                vertical-align: middle;
+                                display: block;
+                                margin: 0 auto;
+                                max-height: 100px;
+                            }
+                            
+                            .z_right li {
+                                padding: 4px 0px;
+                                list-style: none;
+                            }
+                            
+                            .z_right {
+                                width: 47%;
+                                float: right;
+                                margin: auto;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                text-align: justify;
+                            }
+                            
+                            .blue {
+                                color: blue;
+                                text-shadow: 1px 1px 1px #2c29ff;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                font-size: larger;
+                                text-align: center;
+                            }
+                            
+                            .red {
+                                color: red;
+                                text-shadow: 1px 1px 1px #ff1f1f;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                font-size: larger;
+                                text-align: center;
+                            }
+                            
+                            .yellow {
+                                color: yellow;
+                                text-shadow: 1px 1px 1px #FF9800;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                font-size: larger;
+                                text-align: center;
+                            }
+                            
+                            .green {
+                                color: green;
+                                text-shadow: 1px 1px 1px #0a710e;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                font-size: larger;
+                                text-align: center;
+                            }
+                            
+                            .info input[type="submit"] {
+                                background-color: #408ebc;
+                                color: white;
+                                margin: 0 auto;
+                                vertical-align: middle;
+                                display: block;
+                                border-radius: 5px;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                            }
+                            
+                            .awards {
+                                margin-bottom: 2%;
+                                float: left;
+                                width: 98%;
+                                box-shadow: 0px 0px 1px black;
+                                border-radius: 5px;
+                                border-top-left-radius: 0;
+                                border-top-right-radius: 0;
+                                border: 10px solid white;
+                                background: white;
+                            }
+                            
+                            .awards img {
+                                width: 20%;
+                                vertical-align: middle;
+                                display: block;
+                                margin: 0 auto;
+                                max-height: 150px;
+                            }
+                            
+                            .footer {
+                                width: 100%;
+                                margin: auto;
+                                float: left;
+                                font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                            }
+
+                            @media screen and (max-width: 900px) {
+                                .header form {
+                                    float: left;
+                                    padding-bottom: 20px;
+                                }
+                            }

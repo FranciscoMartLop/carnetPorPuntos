@@ -1,0 +1,207 @@
+                                        body {
+                                    background: #EEE;
+                                }
+                                
+                                .header {
+                                    width: 90%;
+                                    margin: 0 auto;
+                                }
+                                
+                                .header img {
+                                    float: left;
+                                    margin-bottom: 20px;
+                                }
+                                
+                                .first_message {
+                                    float: right;
+                                    margin-top: 2%;
+                                }
+                                
+                                .first_message a {
+                                    background-color: #408ebc;
+                                    color: white;
+                                    border-radius: 5px;
+                                    text-decoration: none;
+                                }
+                                
+                                #menu {
+                                    display: table;
+                                    width: 90%;
+                                    margin-left: 2%;
+                                }
+                                
+                                .nav {
+                                    list-style: none;
+                                    width: 100%;
+                                }
+                                
+                                .nav > li {
+                                    float: left;
+                                    padding-left: 6.2%;
+                                    padding-right: 6.1%;
+                                    padding-top: 6px;
+                                    border: 1px solid transparent;
+                                    background-color: #408ebc;
+                                    padding-bottom: 6px;
+                                    border-color: #ccc;
+                                }
+                                
+                                .nav li a {
+                                    color: white;
+                                    text-decoration: none;
+                                    text-shadow: 0px 1px 1px #0a2e40;
+                                    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                    display: block;
+                                }
+                                
+                                .nav li:hover {
+                                    background-color: #65A4CA;
+                                }
+                                
+                                .header input[type="submit"] {
+                                    background-color: #408ebc;
+                                    color: white;
+                                    border-radius: 5px;
+                                    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                }
+                                
+                                .slider2 {
+                                    width: 90%;
+                                    margin: 0 auto;
+                                }
+                                
+                                #slider {
+                                    margin: auto;
+                                    display: table;
+                                    width: 100%;
+                                }
+                                
+                                #slider img {
+                                    display: none;
+                                    width: 98%;
+                                    max-height: 225.49px;
+                                    box-shadow: 0px 0px 1px black;
+                                    border: 10px solid white;
+                                    border-radius: 5px;
+                                }
+                                
+                                #slider img:nth-child(1) {
+                                    display: block;
+                                    margin-left: auto;
+                                    width: 98%;
+                                    max-height: 225.49px;
+                                    box-shadow: 0px 0px 1px black;
+                                    border-radius: 10px;
+                                    border: 10px solid white;
+                                }
+                                
+                                .management {
+                                    width: 90%;
+                                    margin: 0 auto;
+                                    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                }
+                                
+                                .grade_form {
+                                    float: left;
+                                    padding-right: 5%;
+                                }
+                                
+                                .month {
+                                    float: right
+                                }
+                                
+                                .management select {
+                                    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                }
+                                
+                                .management input[type="submit"] {
+                                    background-color: #408ebc;
+                                    color: white;
+                                    border-radius: 5px;
+                                    margin-left: 10px;
+                                    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                }
+                                
+                                .info_table {
+                                    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                    text-align: center;
+                                    width: 90%;
+                                    margin: 0 auto;
+                                }
+                                
+                                .tables_title {
+                                    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                    color: white;
+                                    font-size: larger;
+                                    text-align: center;
+                                    background: #408ebc;
+                                }
+                                
+                                .events_table {
+                                    width: 90%;
+                                    margin: 0 auto;
+                                    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                    text-align: justify;
+                                }
+                                
+                                .all_students {
+                                    width: 90%;
+                                    margin: 0 auto;
+                                    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                    text-align: justify;
+                                }
+                                
+                                .info {
+                                    background-color: #d9e2f3
+                                }
+                                
+                                .buttons {
+                                    width: 90%;
+                                    margin: 0 auto;
+                                    display: -webkit-box;
+                                }
+                                
+                                .buttons2 input[type="submit"] {
+                                    background-color: #408ebc;
+                                    color: white;
+                                    border-radius: 5px;
+                                    margin-right: 20px;
+                                }
+                                
+                                .error {
+                                    color: forestgreen;
+                                    font-weight: bold;
+                                    margin: 10px;
+                                }
+                                
+                                .error2 {
+                                    color: orangered;
+                                    font-weight: bold;
+                                    margin: 10px;
+                                }
+                                
+                                .footer1 {
+                                    width: 90%;
+                                    margin: 0 auto;
+                                    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+                                }
+                                
+                                @media screen and (max-width: 1250px) {
+                                    .grade_form {
+                                        float: left;
+                                        padding-right: 10%;
+                                    }
+                                    @media screen and (max-width: 900px) {
+                                        .first_message {
+                                            float: left;
+                                            padding-bottom: 20px;
+                                        }
+                                        .grade_form {
+                                            float: none;
+                                            padding-right: 7%;
+                                        }
+                                        .month {
+                                            float: none;
+                                        }
+                                    }
+                                }

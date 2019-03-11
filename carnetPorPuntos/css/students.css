@@ -1,0 +1,331 @@
+body {
+    background: #EEE;
+}
+
+.header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header img {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.first_message {
+    float: right;
+    margin-top: 2%;
+}
+
+.first_message a {
+    background-color: #169BD5;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#menu {
+    display: table;
+    width: 90%;
+    margin-left: 2%;
+}
+
+.nav {
+    list-style: none;
+    width: 100%;
+}
+
+.nav > li {
+    float: left;
+    padding-left: 6.5%;
+    padding-right: 6.3%;
+    padding-top: 6px;
+    border: 1px solid transparent;
+    background-color: #408ebc;
+    padding-bottom: 6px;
+    border-color: #ccc;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 1px 1px #0a2e40;
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.nav li:hover {
+    background-color: #65A4CA;
+}
+
+.header input[type="submit"] {
+    background-color: #408ebc;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.slider2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#slider {
+    margin: auto;
+    display: table;
+    width: 100%;
+}
+
+#slider img {
+    display: none;
+    width: 98%;
+    max-height: 225.49px;
+    box-shadow: 0px 0px 1px black;
+    border: 10px solid white;
+    border-radius: 5px;
+}
+
+#slider img:nth-child(1) {
+    display: block;
+    margin-left: auto;
+    width: 98%;
+    max-height: 225.49px;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 10px;
+    border: 10px solid white;
+}
+
+.main_info {
+    width: 90%;
+    margin: auto;
+}
+
+.info {
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    border: 10px solid white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: white;
+    text-align: center;
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.blue {
+    color: blue;
+    text-shadow: 1px 1px 1px #2c29ff;
+}
+
+.red {
+    color: red;
+    text-shadow: 1px 1px 1px #ff1f1f;
+}
+
+.yellow {
+    color: yellow;
+    text-shadow: 1px 1px 1px #FF9800;
+}
+
+.green {
+    color: green;
+    text-shadow: 1px 1px 1px #0a710e;
+}
+
+.title0 {
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    text-shadow: 0px 0px 1px #0a2e40;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 10px solid #408ebc;
+    background: #408ebc;
+}
+
+.title1 {
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+    width: 47%;
+    float: left;
+    font-size: larger;
+    text-align: center;
+    text-shadow: 0px 0px 1px #0a2e40;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 10px solid #408ebc;
+    background: #408ebc;
+}
+
+.title2 {
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+    width: 47%;
+    float: right;
+    font-size: larger;
+    text-align: center;
+    text-shadow: 0px 0px 1px #0a2e40;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 10px solid #408ebc;
+    background: #408ebc;
+}
+
+.title3 {
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+    width: 98.5%;
+    margin-top: 2%;
+    float: left;
+    font-size: larger;
+    text-align: center;
+    text-shadow: 0px 0px 1px #0a2e40;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 10px solid #408ebc;
+    background: #408ebc;
+}
+
+.title4 {
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #389ED1;
+    font-size: larger;
+    text-align: center;
+}
+
+.awards {
+    margin: auto;
+    width: 90%;
+}
+
+.awards_description {
+    width: 47%;
+    float: left;
+    margin: auto;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    border: 10px solid white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background: white;
+    text-align: justify;
+}
+
+.own_awards {
+    width: 47%;
+    float: right;
+    margin: auto;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    border: 10px solid white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background: white;
+    text-align: justify;
+}
+
+.rules {
+    margin: auto;
+    width: 90%;
+}
+
+.type_rules {
+    margin-bottom: 2%;
+    float: left;
+    width: 98.5%;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 10px solid white;
+    background: white;
+}
+
+.win_points {
+    width: 47%;
+    float: left;
+    margin: auto;
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.win_points li {
+    padding: 4px 0px;
+    list-style: none;
+}
+
+.lose_points {
+    width: 47%;
+    float: right;
+    margin: auto;
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.lose_points li {
+    padding: 4px 0px;
+    list-style: none;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    float: left;
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+    .first_message {
+        float: left;
+        padding-bottom: 20px;
+    }
+    .title1 {
+        width: 43%;
+    }
+    .awards_description {
+        width: 43%;
+    }
+    .awards_description ul {
+        margin-left: -20%;
+    }
+    .title2 {
+        width: 43%;
+    }
+    .own_awards {
+        width: 43%;
+    }
+    .own_awards ul {
+        margin-left: -20%;
+    }
+}
+
+@media screen and (max-width: 671px) {
+    .title1 {
+        width: 35%;
+    }
+    .awards_description {
+        width: 35%;
+    }
+    .title2 {
+        width: 35%;
+    }
+    .own_awards {
+        width: 35%;
+    }
+    .win_points ul {
+        margin-left: -15%;
+    }
+    .lose_points ul {
+        margin-left: -15%;
+    }
+}
